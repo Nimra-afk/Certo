@@ -4,3 +4,8 @@
     --certo-yellow: #0b0903;
     --text-muted: #4d4d4d;
 }
+
+body {
+    font-family: 'Inter', sans-serif,;
+    color: var(--dark-blue);
+}
