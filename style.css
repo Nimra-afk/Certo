@@ -1,11 +1,133 @@
+/* Design Variables */
 :root {
     --primary-blue: #4435f2;
     --dark-blue: #02033b;
-    --certo-yellow: #0b0903;
+    --certo-yellow: #ffc247;
     --text-muted: #4d4d4d;
 }
 
 body {
-    font-family: 'Inter', sans-serif,;
+    font-family: 'Inter', sans-serif; /* Use the weight from Figma */
     color: var(--dark-blue);
+}
+
+/* Navbar Styling */
+.nav-link {
+    font-weight: 600;
+    color: var(--dark-blue) !important;
+}
+
+.btn-primary {
+    background-color: var(--primary-blue);
+    border: none;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, #f0f4ff 0%, #ffffff 100%);
+    overflow: hidden;
+}
+
+.hero-text-col {
+    padding: 10% 5% 10% 10%;
+}
+
+.hero-content-wrapper {
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 1.1;
+}
+
+.btn-warning {
+    background-color: var(--certo-yellow);
+    border: none;
+    padding: 15px 30px;
+}
+
+.btn-outline-dark {
+    border: 2px solid var(--dark-blue);
+    padding: 15px 30px;
+}
+
+/* Responsive Image Area */
+.hero-image-col {
+    position: relative;
+    border-left: 8px solid var(--primary-blue); /* The thick blue border in design */
+}
+
+.image-container {
+    position: relative;
+}
+.phone-mockup {
+    position: absolute;
+    top: 50%;
+    left: 20%;       
+    transform: translate(-50%, -50%);
+    width: 30%;      
+    filter: drop-shadow(0 20px 40px rgba(0,0,0,0.2));
+}
+
+/* Responsiveness [cite: 41-45] */
+@media (max-width: 991px) {
+    .hero-text-col {
+        padding: 60px 20px;
+        text-align: center;
+    }
+    .hero-content-wrapper {
+        margin: 0 auto;
+    }
+    .hero-image-col {
+        border-left: none;
+        border-top: 8px solid var(--primary-blue);
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+.testimonials-section {
+    background-color: var(--certo-yellow);
+}
+
+.text-dark-blue {
+    color: var(--dark-blue);
+    max-width: 500px;
+}
+
+.testimonial-card {
+    transition: transform 0.3s ease;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-10px);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    height: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0.05);
+    border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.grayscale-logos img {
+    filter: brightness(0);
+    opacity: 0.8;
+}
+
+@media (max-width: 991px) {
+    .text-dark-blue {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 2rem;
+    }
 }
