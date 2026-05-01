@@ -1,0 +1,63 @@
+/* DESIGN VARIABLES [cite: 53] */
+:root {
+    --primary-blue: #4338ca; /* Adjust based on Figma hex codes [cite: 26] */
+    --certo-yellow: #ffb84d;
+    --dark-text: #060919;
+    --light-bg: #f8f9fa;
+}
+
+body {
+    font-family: 'Inter', sans-serif; /* Use Figma font-family [cite: 25] */
+    color: var(--dark-text);
+    overflow-x: hidden;
+}
+
+/* NAVBAR CUSTOMIZATION */
+.navbar-brand img {
+    max-width: 150px;
+}
+
+.nav-link {
+    font-weight: 600;
+    color: var(--dark-text) !important;
+}
+
+.btn-primary {
+    background-color: var(--primary-blue);
+    border: none;
+}
+
+/* HERO SECTION [cite: 53] */
+.hero-section {
+    background: linear-gradient(to right, #ffffff, #f0f4ff); /* Example gradient */
+}
+
+h1 {
+    color: var(--dark-text);
+    font-size: 4rem; /* Match Figma size [cite: 25] */
+}
+
+.btn-warning {
+    background-color: var(--certo-yellow);
+    border: none;
+}
+
+.hero-image-container {
+    position: relative;
+    padding: 20px;
+    background-color: var(--primary-blue); /* For the blue border frame in your image */
+    border-radius: 20px;
+}
+
+/* RESPONSIVENESS [cite: 40, 45] */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .btn {
+        width: 100%; /* Stack buttons on small mobile [cite: 42] */
+    }
+}
