@@ -334,3 +334,10 @@ left: 872px;
     /* This creates the full-width look */
     width: 100%;
 }
+.btn-outline-white {
+    border: 2px solid white;
+    color: white;
+    background: transparent;
+    border-radius: 50px;
+    font-weight: bold;
+}
