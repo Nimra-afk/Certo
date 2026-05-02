@@ -411,3 +411,8 @@ left: 872px;
 .insights-section {
     background-color: #f8faff; 
 }
+
+.insight-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+}
