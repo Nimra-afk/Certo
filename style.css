@@ -492,3 +492,7 @@ left: 872px;
     left: 0;
     color: #ffc254;
 }
+.newsletter-card {
+    background-color: #ffc254;
+    background-image: radial-gradient(circle at top right, rgba(255,255,255,0.3), transparent);
+}
