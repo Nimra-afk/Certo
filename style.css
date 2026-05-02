@@ -443,3 +443,12 @@ left: 872px;
     font-size: 0.9rem;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
+
+.text-dark-blue {
+    color: #000c3d;
+}
+
+.insight-card p {
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
