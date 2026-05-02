@@ -426,3 +426,7 @@ left: 872px;
     position: relative;
     overflow: hidden;
 }
+.insight-img-container img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;}
