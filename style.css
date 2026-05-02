@@ -323,3 +323,9 @@ left: 872px;
     background-color: #2e28a8;
     color: white;
 }
+.btn-outline-navy {
+    border: 2px solid var(--certo-navy);
+    color: var(--certo-navy);
+    background: transparent;
+    font-weight: bold;
+}
