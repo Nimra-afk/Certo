@@ -274,3 +274,8 @@ left: 872px;
     max-width: 1000px;
     margin: 0 auto;
 }
+.feature-icon img {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+}
