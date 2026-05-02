@@ -15,6 +15,7 @@ body {
 
 /* Navbar Styling */
 .nav-link {
+    
     font-weight: 600;
     color: var(--dark-blue) !important;
 }
