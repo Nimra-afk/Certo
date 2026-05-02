@@ -282,3 +282,9 @@ left: 872px;
 .text-dark-blue {
     color: #000c3d;
 }
+.features-card p {
+    line-height: 1.6;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+}
