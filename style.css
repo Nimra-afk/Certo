@@ -313,3 +313,9 @@ left: 872px;
 .story-card {
     background-color: var(--certo-yellow);
 }
+.btn-primary-blue {
+    background-color: var(--certo-blue-banner);
+    color: white;
+    border: none;
+    font-weight: bold;
+}
