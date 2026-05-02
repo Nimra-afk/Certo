@@ -310,3 +310,6 @@ left: 872px;
 }
 
 
+.story-card {
+    background-color: var(--certo-yellow);
+}
