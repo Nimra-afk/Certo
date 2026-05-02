@@ -269,3 +269,8 @@ left: 872px;
 .features-bg {
     background-color: #f3f7ff;
 }
+
+.features-card {
+    max-width: 1000px;
+    margin: 0 auto;
+}
