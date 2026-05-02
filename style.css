@@ -464,8 +464,8 @@ left: 872px;
 .social-icon {
     background-color: #ffffff; /* Pure white background */
     color: #020721;          /* Dark navy icon color */
-    width: 36px;             /* Exact width from your screenshot */
-    height: 36px;            /* Exact height from your screenshot */
+    width: 36px;             /* Exact width */
+    height: 36px;            /* Exact height */
     border-radius: 8px;      /* Slightly rounded corners */
     
     /* This centers the icon inside the square */
