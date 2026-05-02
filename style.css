@@ -341,3 +341,8 @@ left: 872px;
     border-radius: 50px;
     font-weight: bold;
 }
+
+.btn-outline-white:hover {
+    background: white;
+    color: var(--certo-blue-banner);
+}
