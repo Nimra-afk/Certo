@@ -496,3 +496,23 @@ left: 872px;
     background-color: #ffc254;
     background-image: radial-gradient(circle at top right, rgba(255,255,255,0.3), transparent);
 }
+.text-navy {
+    color: #020721;
+}
+
+.btn-navy {
+    background-color: #020721;
+    color: white;
+    font-weight: bold;
+    border-radius: 0;
+}
+
+/* Utility / Font Sizes */
+.extra-small {
+    font-size: 0.75rem;
+    line-height: 1.6;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
