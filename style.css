@@ -421,3 +421,8 @@ left: 872px;
     transform: translateY(-10px);
     box-shadow: 0 15px 30px rgba(0, 12, 61, 0.1) !important;
 }
+
+.insight-img-container {
+    position: relative;
+    overflow: hidden;
+}
