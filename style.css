@@ -256,7 +256,7 @@ img[alt="Financial Times"], img[alt="CNBC"] {
     right: -10px;
     bottom: 10px;
     left: 10px;
-    border: 30px solid var(--certo-yellow);
+    border: 40px solid var(--certo-yellow);
     z-index: -1; /* Puts the yellow box behind the image */
 }
 
