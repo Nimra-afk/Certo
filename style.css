@@ -319,3 +319,7 @@ left: 872px;
     border: none;
     font-weight: bold;
 }
+.btn-primary-blue:hover {
+    background-color: #2e28a8;
+    color: white;
+}
