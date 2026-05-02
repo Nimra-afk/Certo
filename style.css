@@ -329,3 +329,8 @@ left: 872px;
     background: transparent;
     font-weight: bold;
 }
+.cta-banner {
+    background-color: var(--certo-blue-banner);
+    /* This creates the full-width look */
+    width: 100%;
+}
