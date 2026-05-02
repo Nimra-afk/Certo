@@ -452,3 +452,8 @@ left: 872px;
     line-height: 1.6;
     font-size: 0.95rem;
 }
+@media (max-width: 768px) {
+    .insight-img-container img {
+        height: 200px;
+    }
+}
