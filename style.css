@@ -134,27 +134,22 @@ h1 {
 .grayscale-logos {
     display: flex;
     align-items: center; 
-    justify-content: space-between;
-    gap: 20px;
+    
+    
 }
 
 /* The actual logo images */
 .grayscale-logos img {
     
-    height: 100px !important; 
-    width: auto !important;
+    height: 95px !important; 
+    width: 130px !important;
+left: 872px;
     
-    /* STYLE: Makes them dark blue/black and subtle */
-    filter: brightness(0) saturate(100%) invert(10%) sepia(90%) peachpuff; 
-    opacity: 0.8;
     
-    object-fit: contain;
 }
 
-/* Specific fix for boxy logos like Financial Times so they don't look too big */
-img[alt="Financial Times"], img[alt="CNBC"] {
-    height: 80px !important;
-}
+
+
 @media (max-width: 991px) { 
     .text-dark-blue {
         text-align: center;
@@ -163,9 +158,6 @@ img[alt="Financial Times"], img[alt="CNBC"] {
         font-size: 2rem;
     }
 }
-
-
-
 
 
 .custom-scrollbar {
@@ -197,7 +189,7 @@ img[alt="Financial Times"], img[alt="CNBC"] {
     }
 }
 
-    /* Adds a little breathing room at the end of the scroll */
+   
     .row::after {
         content: '';
         padding-right: 2rem;
@@ -263,4 +255,13 @@ img[alt="Financial Times"], img[alt="CNBC"] {
 .image-accent-wrapper img {
     display: block;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+.w-fit-content {
+    width: fit-content;
+}
+
+
+.btn-certo-primary, .btn-certo-outline {
+    min-width: 250px; 
+    text-align: center;
 }
