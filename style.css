@@ -279,3 +279,6 @@ left: 872px;
     width: auto;
     object-fit: contain;
 }
+.text-dark-blue {
+    color: #000c3d;
+}
