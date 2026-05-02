@@ -346,3 +346,6 @@ left: 872px;
     background: white;
     color: var(--certo-blue-banner);
 }
+.w-fit-content {
+    width: fit-content;
+}
