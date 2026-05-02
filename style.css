@@ -298,3 +298,12 @@ left: 872px;
     display: block;
     max-width: 800px;
 }
+.features-card-long{
+    padding: 6rem 200px;
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
