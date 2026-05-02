@@ -4,6 +4,8 @@
     --dark-blue: #02033b;
     --certo-yellow: #ffc247;
     --text-muted: #4d4d4d;
+    --certo-blue-banner: #3f37d9;
+    --certo-navy: #000c3d;
 }
 
 body {
@@ -306,4 +308,5 @@ left: 872px;
     justify-content: center;
 
 }
+
 
