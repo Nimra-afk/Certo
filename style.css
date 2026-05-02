@@ -349,3 +349,61 @@ left: 872px;
 .w-fit-content {
     width: fit-content;
 }
+
+/* Section Background */
+.insights-section {
+    background-color: #f8faff; /* Very light blue tint */
+}
+
+/* Card Styling */
+.insight-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+}
+
+.insight-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 12, 61, 0.1) !important;
+}
+
+/* Image & Badge logic */
+.insight-img-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.insight-img-container img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover; /* Ensures photos fill the area without stretching */
+}
+
+.insight-badge {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: white;
+    color: #000c3d;
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Typography */
+.text-dark-blue {
+    color: #000c3d;
+}
+
+.insight-card p {
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+/* Responsive button tweak */
+@media (max-width: 768px) {
+    .insight-img-container img {
+        height: 200px;
+    }
+}
