@@ -117,6 +117,19 @@ h1 {
     background: rgba(0,0,0,0.1);
     border-radius: 10px;
 }
+
+.featured-label {
+    
+    font-size: 1.25rem; 
+    font-weight: 700;   
+    
+    
+    margin-left:40%;    
+    
+    
+    display: inline-block;
+    vertical-align: middle;
+}
 /* Container for the logos */
 .grayscale-logos {
     display: flex;
@@ -170,9 +183,10 @@ img[alt="Financial Times"], img[alt="CNBC"] {
     .testimonial-card-wrapper {
         scroll-snap-align: center; 
 
+
     flex: 0 0 auto;
     
-    width: 80%; 
+    width: 100%; 
     margin: 0 1rem;
     white-space: normal;
 }
@@ -188,3 +202,65 @@ img[alt="Financial Times"], img[alt="CNBC"] {
         content: '';
         padding-right: 2rem;
     }
+    /* Color Palette */
+:root {
+    --certo-navy: #000c3d;
+    --certo-yellow: #ffc254;
+}
+
+.text-dark-blue {
+    color: var(--certo-navy);
+}
+
+/* Primary Button (Yellow) */
+.btn-certo-primary {
+    background-color: var(--certo-yellow);
+    color: var(--certo-navy);
+    border: none;
+    border-radius: 50px; /* Fully rounded pill shape */
+    font-weight: bold;
+    transition: transform 0.2s;
+}
+
+.btn-certo-primary:hover {
+    background-color: #f0b548;
+    transform: translateY(-2px);
+}
+
+/* Outline Button (Navy) */
+.btn-certo-outline {
+    background: transparent;
+    color: var(--certo-navy);
+    border: 2px solid var(--certo-navy);
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.btn-certo-outline:hover {
+    background-color: var(--certo-navy);
+    color: white;
+}
+
+/* Image with Offset Yellow Frame */
+.image-accent-wrapper {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+.image-accent-wrapper::before {
+    content: "";
+    position: absolute;
+    /* This creates the frame effect */
+    top: -10px; 
+    right: -10px;
+    bottom: 10px;
+    left: 10px;
+    border: 30px solid var(--certo-yellow);
+    z-index: -1; /* Puts the yellow box behind the image */
+}
+
+.image-accent-wrapper img {
+    display: block;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
